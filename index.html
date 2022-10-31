@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1d3f678998.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+  <title>Indietopia website</title>
+</head>
+
+<body>
+
+
+  <section class="header" id="hero-section">
+    <!-- Navbar Section -->
+
+
+    <div class="navbar-container">
+      <a href="#" id="navbar-logo"><img src="/images/indietopia text big.png"></a>
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+      <div class="nav-wrapper">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Fablab</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!--Header Section-->
+    <div class="header-container">
+      <div class="heading-modal">
+        <div class="modal-container">
+          <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-content">
+            <img src="./images/about-modal-picture.jpg">
+            <p>During an award ceremony on June 2nd, Indietopia won the Excellent Digital Idea contest, organised by
+              Provincie Groningen. We are preparing reconstructions of churches in Groningen, using photogrammetry,
+              drone photo scanning, Meshroom and RealityCapture.</p>
+          </div>
+        </div>
+        <div class="modal-container">
+          <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-content">
+            <img src="./images/Indietopia logo.png">
+            <p>Indietopia was founded by Mendel on April 1st 2014, with the purpose to function as a hub for many
+              isolated indie game development studios in the North of the Netherlands. Indietopia opened up in an
+              abandoned building. By supplying Indietopia with this building, the municipality of Groningen gave the
+              Northern Indie Game Scene a place to thrive, while they did not have to worry about the building being
+              squatted.</p>
+          </div>
+        </div>
+        <div class="modal-container">
+          <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-content">
+            <img src="./images/Adriaan-de-Jongh-session-300x171.jpg">
+            <p>On 13 March 2018 game designer Adriaan de Jongh visited our HQ for a private session with our accelerator
+              teams and interns. He gave great insight in his game hit Hidden Folks, as well as marketing tips and
+              advice on how to obtain valuable contacts in the game industry.
+              We found out how one e-mail accelerated the success of Hidden Folks, which shows the importance of
+              networking and building relationships with people that can pull strings for developers.</p>
+          </div>
+        </div>
+        <div class="modal-container">
+          <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-content">
+            <img src="./images/Founder-400x270.jpg">
+            <p>Indietopia founder Mendel Bouman took part in the Founder Talks, a collaboration between start-up
+              organisation Founded in Groningen and RTV Noord’s NoordZaken. This article summarizes the interview (29
+              November 2019, Dutch).</p>
+          </div>
+        </div>
+        <div class="modal-container">
+          <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-content">
+            <img src="./images/LC1-400x270.jpg">
+            <p>During the first lockdown, our director Merijn de Boer made a virtual tour for Museum Belvédère, together
+              with NHL Stenden students. We’re proud to announce that he’s collaborating with the museum once again.
+              From 9 October ’21 – 23 January ’22 you can admire art from games in Heerenveen.
+              ‘Arranged Realism’ is the first expo in the Netherlands where art from screens is translated to reality
+              using new techniques. In an interview with Leeuwarder Courant, Merijn revelead that visitors will get an
+              insight in how game artists work, discover techniques such as rotoscoping and photogrammetry, giclées of
+              game art and 3D printed scenes from games (Leeuwarder Courant, 8 May 2020, Dutch).</p>
+          </div>
+        </div>
+      </div>
+      <h1 class="header-heading" id="top-heading">Award Winning Hub, Accelerator, Publisher, Innovator </h1>
+      <div class="begin-journey-container" id="journey-container">
+        <div class="circle">
+        </div>
+        <svg class="rocket" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 94 172">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: url(#linear-gradient);
+              }
+
+              .cls-2 {
+                fill: url(#linear-gradient-2);
+              }
+
+              .cls-3 {
+                fill: url(#linear-gradient-3);
+              }
+
+              .cls-4 {
+                fill: #b71d1d;
+              }
+
+              .cls-5 {
+                fill: url(#linear-gradient-4);
+              }
+
+              .cls-6 {
+                fill: url(#linear-gradient-5);
+              }
+
+              .cls-7 {
+                fill: url(#linear-gradient-6);
+              }
+
+              .cls-8 {
+                fill: url(#linear-gradient-7);
+              }
+
+              .cls-9 {
+                fill: #fff;
+              }
+
+              .cls-10 {
+                fill: url(#linear-gradient-8);
+              }
+
+              .cls-11 {
+                fill: url(#linear-gradient-9);
+              }
+
+              .cls-12 {
+                fill: url(#linear-gradient-10);
+              }
+            </style>
+            <linearGradient id="linear-gradient" x1="80.46" y1="102.28" x2="80.46" y2="154.94"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#d54a0d" />
+              <stop offset="1" stop-color="#b53e1e" />
+            </linearGradient>
+            <linearGradient id="linear-gradient-2" x1="14.15" y1="53.9" x2="88.72" y2="96.95"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#cdcdcd" />
+              <stop offset="0.38" stop-color="#c3c4c4" />
+              <stop offset="0.65" stop-color="#a5a6a7" />
+              <stop offset="0.96" stop-color="#9e9fa0" />
+            </linearGradient>
+            <linearGradient id="linear-gradient-3" x1="73.93" y1="102.28" x2="73.93" y2="154.94"
+              xlink:href="#linear-gradient" />
+            <linearGradient id="linear-gradient-4" x1="32.96" y1="54.58" x2="64.43" y2="72.75"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0.02" stop-color="#9ea39e" />
+              <stop offset="1" stop-color="#0b5e71" />
+            </linearGradient>
+            <linearGradient id="linear-gradient-5" x1="42.1" y1="117.55" x2="55.29" y2="117.55"
+              xlink:href="#linear-gradient" />
+            <linearGradient id="linear-gradient-6" x1="42.09" y1="140.17" x2="55.29" y2="140.17"
+              xlink:href="#linear-gradient" />
+            <linearGradient id="linear-gradient-7" x1="42.09" y1="157.16" x2="55.29" y2="157.16"
+              xlink:href="#linear-gradient" />
+            <linearGradient id="linear-gradient-8" x1="41.3" y1="6.87" x2="115.87" y2="49.92"
+              xlink:href="#linear-gradient-2" />
+            <linearGradient id="linear-gradient-9" x1="14.72" y1="101.22" x2="13.93" y2="154.24"
+              xlink:href="#linear-gradient" />
+            <linearGradient id="linear-gradient-10" x1="20.91" y1="101.31" x2="20.12" y2="154.33"
+              xlink:href="#linear-gradient" />
+          </defs>
+          <path class="cls-1"
+            d="M78.46,102.28s20,14,11.57,51.83a1.06,1.06,0,0,1-2,.12c-2.1-5.91-7.51-17.28-19.18-21.76L71,125.78a144.31,144.31,0,0,0,5.94-18.62Z" />
+          <path class="cls-2"
+            d="M48.69,2.52c1.14,1,44.21,39.17,28.21,104.64L71,125.78q-1.36,3.48-3,7.05H53.23l2.05-24.55a4,4,0,0,0-.7-2.54c-1.6-2.35-5.61-6.42-11.41,0a4.07,4.07,0,0,0-1.07,2.93L44,132.83H27.33q-1.74-3.39-3.23-6.72l-6.82-19.7c-10.56-42.64,8.51-76,21.27-92.53H58.83ZM66.86,63.67A18.17,18.17,0,1,0,48.69,81.83,18.16,18.16,0,0,0,66.86,63.67Z" />
+          <path class="cls-3" d="M71,125.78l5.94-18.62A144.31,144.31,0,0,1,71,125.78Z" />
+          <polygon class="cls-4" points="68 132.83 62.33 147.5 52.01 147.5 53.23 132.83 68 132.83" />
+          <path class="cls-5"
+            d="M48.69,45.5A18.17,18.17,0,1,1,30.53,63.67,18.16,18.16,0,0,1,48.69,45.5Zm-.58,16.77c3.77.49,3.77-6.13,0-7.46s-12.82,3.47-10,10.37c1,2.38,3,2.51,4.59,2A3.72,3.72,0,0,0,45.27,64C45.35,63,45.91,62,48.11,62.27Z" />
+          <path class="cls-6"
+            d="M54.58,105.74a4,4,0,0,1,.7,2.54l-2.05,24.55H44L42.1,108.62a4.07,4.07,0,0,1,1.07-2.93C49,99.32,53,103.39,54.58,105.74Z" />
+          <polygon class="cls-7" points="53.23 132.83 52.01 147.5 45.19 147.5 44.03 132.83 53.23 132.83" />
+          <path class="cls-8" d="M52,147.5l-1.32,15.81c-.06,1-.65,3.53-2.19,3.5-1.27,0-2-2.36-2.06-3.63L45.19,147.5Z" />
+          <path class="cls-9"
+            d="M48.11,54.81c3.77,1.33,3.77,7.95,0,7.46C45.91,62,45.35,63,45.27,64a3.72,3.72,0,0,1-2.54,3.2c-1.64.54-3.61.41-4.59-2C35.29,58.28,44.34,53.49,48.11,54.81Z" />
+          <polygon class="cls-4"
+            points="48.69 2.52 58.83 13.88 38.55 13.88 38.56 13.87 48.65 2.52 48.67 2.5 48.69 2.52" />
+          <path class="cls-10" d="M48.65,2.52,38.56,13.87A96.33,96.33,0,0,1,48.65,2.52Z" />
+          <polygon class="cls-4" points="44.03 132.83 45.19 147.5 31.67 147.5 27.33 132.83 44.03 132.83" />
+          <path class="cls-11"
+            d="M24.1,126.11l1.75,5.06c-11.56,4.77-16.7,16.27-18.65,22.22a1.06,1.06,0,0,1-2-.07c-9.3-37.65,10.32-52.09,10.32-52.09l1.8,5.18A115.83,115.83,0,0,0,24.1,126.11Z" />
+          <path class="cls-12" d="M17.28,106.41l6.82,19.7A115.83,115.83,0,0,1,17.28,106.41Z" />
+        </svg>
+        <button class="start-btn" id="start-button">Start your journey</button>
+      </div>
+      <div class="flag-container" id="flag-container">
+        <div class="flags">
+          <div id="flag-one">
+            <svg class="flag-object" id="about-flag" width="110" height="107" viewBox="0 0 110 107" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 35">
+                <path id="Vector"
+                  d="M105 84V95.4559C105 96.1106 104.65 96.7652 104.3 97.4198C92.4 110.84 11.2 109.53 0.35 97.4198C0 96.7652 0 96.1106 0 95.4559V84C0 84 45.5 105.603 105 84Z"
+                  fill="#C96E00" />
+                <path id="Vector_2"
+                  d="M52.5 94C81.4949 94 105 89.7467 105 84.5C105 79.2533 81.4949 75 52.5 75C23.5051 75 0 79.2533 0 84.5C0 89.7467 23.5051 94 52.5 94Z"
+                  fill="url(#paint0_linear_604_17)" />
+                <path id="flag"
+                  d="M85.2932 5.08898C97.0887 14.3056 106.679 8.92924 110 5.08898V37.457C106.148 42.3945 95.8135 49.307 85.2932 37.457C74.7729 25.6071 62.0476 32.5195 57 37.457V5.08898C61.5163 1.24872 73.4977 -4.12765 85.2932 5.08898Z"
+                  fill="url(#paint1_linear_604_17)" />
+                <path id="Vector 45" d="M57 4H51V83H57V4Z" fill="url(#paint2_linear_604_17)" />
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_604_17" x1="52.5" y1="75" x2="52.5" y2="94"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.0572917" stop-color="#6D6D6D" />
+                  <stop offset="0.723958" stop-color="#7D7D7D" />
+                  <stop offset="0.989583" stop-color="#878787" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_604_17" x1="83.5" y1="0" x2="83.5" y2="44"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="#C9C9C9" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_604_17" x1="54" y1="4" x2="54" y2="83" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FF8C00" />
+                  <stop offset="0.583333" stop-color="#D07200" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <button class="flag-button" id="go-to-about">About</button>
+          </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="flags">
+          <div id="flag-two">
+            <svg class="flag-object" id="projects-flag" width="110" height="107" viewBox="0 0 110 107" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 35">
+                <path id="Vector"
+                  d="M105 84V95.4559C105 96.1106 104.65 96.7652 104.3 97.4198C92.4 110.84 11.2 109.53 0.35 97.4198C0 96.7652 0 96.1106 0 95.4559V84C0 84 45.5 105.603 105 84Z"
+                  fill="#C96E00" />
+                <path id="Vector_2"
+                  d="M52.5 94C81.4949 94 105 89.7467 105 84.5C105 79.2533 81.4949 75 52.5 75C23.5051 75 0 79.2533 0 84.5C0 89.7467 23.5051 94 52.5 94Z"
+                  fill="url(#paint0_linear_604_17)" />
+                <path id="flag"
+                  d="M85.2932 5.08898C97.0887 14.3056 106.679 8.92924 110 5.08898V37.457C106.148 42.3945 95.8135 49.307 85.2932 37.457C74.7729 25.6071 62.0476 32.5195 57 37.457V5.08898C61.5163 1.24872 73.4977 -4.12765 85.2932 5.08898Z"
+                  fill="url(#paint1_linear_604_17)" />
+                <path id="Vector 45" d="M57 4H51V83H57V4Z" fill="url(#paint2_linear_604_17)" />
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_604_17" x1="52.5" y1="75" x2="52.5" y2="94"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.0572917" stop-color="#6D6D6D" />
+                  <stop offset="0.723958" stop-color="#7D7D7D" />
+                  <stop offset="0.989583" stop-color="#878787" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_604_17" x1="83.5" y1="0" x2="83.5" y2="44"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="#C9C9C9" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_604_17" x1="54" y1="4" x2="54" y2="83" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FF8C00" />
+                  <stop offset="0.583333" stop-color="#D07200" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <button class="flag-button" id="go-to-projects">Projects</button>
+          </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="flags">
+          <div id="flag-three">
+            <svg class="flag-object" id="services-flag" width="110" height="107" viewBox="0 0 110 107" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 35">
+                <path id="Vector"
+                  d="M105 84V95.4559C105 96.1106 104.65 96.7652 104.3 97.4198C92.4 110.84 11.2 109.53 0.35 97.4198C0 96.7652 0 96.1106 0 95.4559V84C0 84 45.5 105.603 105 84Z"
+                  fill="#C96E00" />
+                <path id="Vector_2"
+                  d="M52.5 94C81.4949 94 105 89.7467 105 84.5C105 79.2533 81.4949 75 52.5 75C23.5051 75 0 79.2533 0 84.5C0 89.7467 23.5051 94 52.5 94Z"
+                  fill="url(#paint0_linear_604_17)" />
+                <path id="flag"
+                  d="M85.2932 5.08898C97.0887 14.3056 106.679 8.92924 110 5.08898V37.457C106.148 42.3945 95.8135 49.307 85.2932 37.457C74.7729 25.6071 62.0476 32.5195 57 37.457V5.08898C61.5163 1.24872 73.4977 -4.12765 85.2932 5.08898Z"
+                  fill="url(#paint1_linear_604_17)" />
+                <path id="Vector 45" d="M57 4H51V83H57V4Z" fill="url(#paint2_linear_604_17)" />
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_604_17" x1="52.5" y1="75" x2="52.5" y2="94"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.0572917" stop-color="#6D6D6D" />
+                  <stop offset="0.723958" stop-color="#7D7D7D" />
+                  <stop offset="0.989583" stop-color="#878787" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_604_17" x1="83.5" y1="0" x2="83.5" y2="44"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="#C9C9C9" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_604_17" x1="54" y1="4" x2="54" y2="83" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FF8C00" />
+                  <stop offset="0.583333" stop-color="#D07200" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <button class="flag-button" id="go-to-services">Services</button>
+          </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="flags">
+          <div id="flag-four">
+            <svg class="flag-object" id="reviews-flag" width="110" height="107" viewBox="0 0 110 107" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 35">
+                <path id="Vector"
+                  d="M105 84V95.4559C105 96.1106 104.65 96.7652 104.3 97.4198C92.4 110.84 11.2 109.53 0.35 97.4198C0 96.7652 0 96.1106 0 95.4559V84C0 84 45.5 105.603 105 84Z"
+                  fill="#C96E00" />
+                <path id="Vector_2"
+                  d="M52.5 94C81.4949 94 105 89.7467 105 84.5C105 79.2533 81.4949 75 52.5 75C23.5051 75 0 79.2533 0 84.5C0 89.7467 23.5051 94 52.5 94Z"
+                  fill="url(#paint0_linear_604_17)" />
+                <path id="flag"
+                  d="M85.2932 5.08898C97.0887 14.3056 106.679 8.92924 110 5.08898V37.457C106.148 42.3945 95.8135 49.307 85.2932 37.457C74.7729 25.6071 62.0476 32.5195 57 37.457V5.08898C61.5163 1.24872 73.4977 -4.12765 85.2932 5.08898Z"
+                  fill="url(#paint1_linear_604_17)" />
+                <path id="Vector 45" d="M57 4H51V83H57V4Z" fill="url(#paint2_linear_604_17)" />
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_604_17" x1="52.5" y1="75" x2="52.5" y2="94"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.0572917" stop-color="#6D6D6D" />
+                  <stop offset="0.723958" stop-color="#7D7D7D" />
+                  <stop offset="0.989583" stop-color="#878787" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_604_17" x1="83.5" y1="0" x2="83.5" y2="44"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="#C9C9C9" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_604_17" x1="54" y1="4" x2="54" y2="83" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FF8C00" />
+                  <stop offset="0.583333" stop-color="#D07200" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <button class="flag-button" id="go-to-testimonies">Reviews</button>
+          </div>
+        </div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="flags">
+          <div id="flag-five">
+            <svg class="flag-object" id="contact-flag" width="110" height="107" viewBox="0 0 110 107" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 35">
+                <path id="Vector"
+                  d="M105 84V95.4559C105 96.1106 104.65 96.7652 104.3 97.4198C92.4 110.84 11.2 109.53 0.35 97.4198C0 96.7652 0 96.1106 0 95.4559V84C0 84 45.5 105.603 105 84Z"
+                  fill="#C96E00" />
+                <path id="Vector_2"
+                  d="M52.5 94C81.4949 94 105 89.7467 105 84.5C105 79.2533 81.4949 75 52.5 75C23.5051 75 0 79.2533 0 84.5C0 89.7467 23.5051 94 52.5 94Z"
+                  fill="url(#paint0_linear_604_17)" />
+                <path id="flag"
+                  d="M85.2932 5.08898C97.0887 14.3056 106.679 8.92924 110 5.08898V37.457C106.148 42.3945 95.8135 49.307 85.2932 37.457C74.7729 25.6071 62.0476 32.5195 57 37.457V5.08898C61.5163 1.24872 73.4977 -4.12765 85.2932 5.08898Z"
+                  fill="url(#paint1_linear_604_17)" />
+                <path id="Vector 45" d="M57 4H51V83H57V4Z" fill="url(#paint2_linear_604_17)" />
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_604_17" x1="52.5" y1="75" x2="52.5" y2="94"
+                  gradientUnits="userSpaceOnUse">
+                  <stop offset="0.0572917" stop-color="#6D6D6D" />
+                  <stop offset="0.723958" stop-color="#7D7D7D" />
+                  <stop offset="0.989583" stop-color="#878787" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_604_17" x1="83.5" y1="0" x2="83.5" y2="44"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="#C9C9C9" />
+                </linearGradient>
+                <linearGradient id="paint2_linear_604_17" x1="54" y1="4" x2="54" y2="83" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FF8C00" />
+                  <stop offset="0.583333" stop-color="#D07200" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <button class="flag-button" id="go-to-contact">Contact</button>
+          </div>
+        </div>
+      </div>
+      <h3 id="explanation">Click on each flag after reaching a checkpoint to reveal a fact.</h3>
+    </div>
+  </section>
+  <!-- Progress bar -->
+  <div class="progress-bar-container">
+    <ul>
+      <span class="line" id="myBar"></span>
+      <li><a href="#hero-section" id="aboutCheckpoint">.</a></li>
+      <li><a href="#hero-section" id="projectsCheckpoint">.</a></li>
+      <li><a href="#hero-section" id="servicesCheckpoint">.</a></li>
+      <li><a href="#hero-section" id="testimoniesCheckpoint">.</a></li>
+      <li><a href="#hero-section" id="contactCheckpoint">.</a></li>
+    </ul>
+  </div>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="section-header">
+      <span class="triangle-left"></span>
+      <h1 class="section-heading">About us</h1>
+      <span class="triangle-right"></span>
+    </div>
+    <div class="about-row reveal">
+      <div class="video-container">
+        <iframe width="500" height="300" src="https://www.youtube-nocookie.com/embed/0omZ10OgRrA"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="about-content">
+        <p>Indietopia is a non-profit foundation and an award winning studio. We are an
+          innovator, accelerator and publisher of games. Our mission is making sure that everyone passionate about game
+          development has a chance at becoming a self-supporting developer. This starts small in Groningen, the
+          Netherlands. However, as the game industry is a global industry, we create global visibility for our teams
+          through social media, our game store and by organising and visiting events.</p>
+      </div>
+      <h3 id="checkpoint-explanation">Click on the green checkpoint circle to go back to the header</h3>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="project-section" id="projects">
+    <div class="section-header">
+      <span class="triangle-left"></span>
+      <h1 class="section-heading">Projects</h1>
+      <span class="triangle-right"></span>
+    </div>
+    <div class="projects-container reveal">
+      <div class="card">
+        <div class="img-box">
+          <img src="./images/virtual groninger.png">
+        </div>
+        <div class="projects-content-box">
+          <h2>Become a Virtual Groninger</h2>
+          <p>Are you curious about what it is like to be a student in Groningen? Enjoy the game Become a Virtual
+            Groninger from the comfort of your own home before you visit the city in real life. In four levels you get a
+            taste of this vibrant student city in the North of the Netherlands.</p>
+          <h3>Available positions</h3>
+          <div class="position-icons">
+            <span class="grid-item"><i class="fas fa-solid fa-paintbrush"></i></span>
+            <p class="grid-item">3D Artist</p>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="card">
+        <div class="img-box">
+          <img src="./images/scans of churches.png">
+        </div>
+        <div class="projects-content-box">
+          <h2>3D Scans of churches</h2>
+          <p>During an award ceremony on 2 June 2022, Indietopia won the Excellent Digital Idea contest, organised by
+            Provincie Groningen. We’ll make reconstructions of churches in Groningen, using photogrammetry, drone photo
+            scanning, Meshroom and RealityCapture.
+          </p>
+          <h3>Available positions</h3>
+          <div class="position-icons">
+            <span class="grid-item"><i class="fas fa-regular fa-cube"></i></span>
+            <p class="grid-item">3D Model Artist</p>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="card">
+        <div class="img-box">
+          <img src="./images/arranged realism.png">
+        </div>
+        <div class="projects-content-box">
+          <h2>Arranged Realism</h2>
+          <p>Indietopia hosts the expo Arranged Realism at Museum Belvédère. It’s the first expo in the Netherlands
+            where art from screens is translated to the real world using new techniques such as rotoscoping and
+            photogrammetry.
+          </p>
+          <h3>Available positions</h3>
+          <div class="position-icons">
+            <span class="grid-item"><i class="fas fa-solid fa-list-check"></i></span>
+            <p class="grid-item">Project Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="section-header">
+      <span class="triangle-left"></span>
+      <h1 class="section-heading">Services</h1>
+      <span class="triangle-right"></span>
+    </div>
+    <div class="boxes-row reveal">
+      <div class="box">
+        <div class="inner-box">
+          <span><i class="fas fa-solid fa-gear"></i></span>
+          <h2>Development</h2>
+        </div>
+        <div class="content-box">
+          <p>
+            Want to improve as a developer?
+            Our development program gives
+            you an incredible opportunity to
+            learn, create, and publish your
+            own product.
+          </p>
+          <button class="more-services">Learn More</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="inner-box">
+          <span><i class="fas fa-person-chalkboard"></i></span>
+          <h2>Project pitch</h2>
+        </div>
+        <div class="content-box">
+          <p>
+            Want to have a project idea developed and published? Indietopia gives the opportunity for small newly
+            founded companies to pitch their ideas and recieve assistance with their devoplment.
+          </p>
+          <button class="more-services">Learn More</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="inner-box">
+          <span><i class="fas fa-edit"></i></span>
+          <h2>Organization</h2>
+        </div>
+        <div class="content-box">
+          <p>
+            Looking for an office space?
+            In need of 3D printers?
+            Indietopia offers a variety of services to help developers organize their projects.
+          </p>
+          <button class="more-services">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Testimonies Section-->
+  <section class="testimonies-section" id="testimonies">
+    <div class="section-header">
+      <span class="triangle-left"></span>
+      <h1 class="section-heading">Why us?</h1>
+      <span class="triangle-right"></span>
+    </div>
+    <div class="testimonies-container reveal">
+      <div class="stats-container">
+        <div class="stats-content">
+          <div class="stats-box">
+            <div class="stats-icon"><i class="fa fa-history"></i></div>
+            <div class="stats-counter-box">
+              <span class="stats-counter" data-val="5">0</span>
+              <p>+</p>
+            </div>
+            <div class="stats-text">Years in the industry</div>
+          </div>
+          <div class="stats-box">
+            <div class="stats-icon"><i class="fa fa-gamepad"></i></div>
+            <div class="stats-counter-box">
+              <span class="stats-counter" data-val="10">0</span>
+              <p>+</p>
+            </div>
+            <div class="stats-text">Published games</div>
+          </div>
+          <div class="stats-box">
+            <div class="stats-icon"><i class="fa fa-thumbs-up"></i></div>
+            <div class="stats-counter-box">
+              <span class="stats-counter" data-val="30">0</span>
+              <p>+</p>
+            </div>
+            <div class="stats-text">Satisfied customers</div>
+          </div>
+        </div>
+      </div>
+      <!--REVIEWS-->
+      <div class="reviews">
+        <div class="reviews-container active">
+          <div class="slide">
+            <p class="testimony-text">I worked with Indietopia for about half a year on a personal project. I was happt
+              with the way they communicated with me and gave me everything I needed to publish my game. They are an
+              amazing company to work with!</p>
+            <div class="user">
+              <div class="user-icon"><i class="fa-solid fa-user"></i></div>
+              <div class="user-info">
+                <h3>Anonymous</h3>
+                <div class="star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-container">
+          <div class="slide">
+            <p class="testimony-text">AMAZING STUFF</p>
+            <div class="user">
+              <div class="user-icon"><i class="fa-solid fa-user"></i></div>
+              <div class="user-info">
+                <h3>Anonymous</h3>
+                <div class="star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-container">
+          <div class="slide">
+            <p class="testimony-text">Even though they focus on aiding game developers, I have to say that the help they
+              gave the National meseum for building a VR tour was much appreciated! They are an amazing bunch and I
+              highly recommend their services.</p>
+            <div class="user">
+              <div class="user-icon"><i class="fa-solid fa-user"></i></div>
+              <div class="user-info">
+                <h3>Anonymous</h3>
+                <div class="star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="next" class="fas fa-chevron-right" onclick="goNext()"></div>
+        <div id="prev" class="fas fa-chevron-left" onclick="goPrev()"></div>
+      </div>
+  </section>
+
+  <!--Contact Section-->
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <span class="triangle-left"></span>
+      <h1 class="section-heading">Contact us!</h1>
+      <span class="triangle-right"></span>
+    </div>
+    <div class="contact-container reveal">
+      <form>
+        <div class="form-group">
+          <label for="firstname">First name*</label>
+          <input type="text" name="firstname" id="firstname" required class="form-element" placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="text" name="email" id="email" required class="form-element" placeholder="Email" />
+        </div>
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">To</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="dropdown-menu">
+            <li class="selected-active">John Adams - (Project Lead)</li>
+            <li>Anna Smith - (3D Artist)</li>
+            <li>Frank Rover - (Lead Designer)</li>
+            <li>Elina Kowalt - (Human Resources)</li>
+          </ul>
+        </div>
+        <div class="form-group full">
+          <label for="message">Message</label>
+          <textarea type="text" name="message" id="message" required class="form-element"
+            placeholder="Comment"></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+
+  <section class="footer">
+    <div class="social">
+      <a href="https://www.instagram.com/indietopia/" target="_blank" rel="noreferrer noopener"><i
+          class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/indietopia/" target="_blank" rel="noreferrer noopener"><i
+          class="fab fa-facebook"></i></a>
+      <a href="https://www.youtube.com/channel/UCcT-8TS023RrmCVCtpA3FQQ" target="_blank" rel="noreferrer noopener"><i
+          class="fab fa-youtube"></i></a>
+    </div>
+    <ul class="footer-menu">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Projects</a>
+      </li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Fablab</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">News</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+    <p class="copyright">
+      Indietopia @ 2022
+    </p>
+  </section>
+
+  <script src="/main.js"></script>
+  <script>
+
+    //PROGRESS BAR 
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    if (winScroll == height) {
+      document.getElementById("myBar").style.height = "101%";
+    } else {
+      document.getElementById("myBar").style.height = "0%"
+    }
+
+    //SAVE USER SCROLL HEIGHT
+    if (localStorage.getItem("latestScrolled")) {
+      var latestScrolled = localStorage.getItem("latestScrolled");
+      document.getElementById("myBar").style.height = latestScrolled + "%";
+    }
+
+    window.onscroll = function () { scrollBar() };
+
+    function scrollBar() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 460;
+      if ($(window).width() < 960) {
+        scrolled = (winScroll / height) * 620;
+      }
+      var latestScrolled = localStorage.getItem("latestScrolled");
+      if (scrolled < latestScrolled) {
+        document.getElementById("myBar").style.height = latestScrolled + "%";
+
+      } else {
+        document.getElementById("myBar").style.height = scrolled + "%";
+        localStorage.setItem("latestScrolled", scrolled);
+      }
+    };
+
+
+
+
+    //RELOAD USER SCROLL HEIGHT
+    window.onbeforeunload = function () {
+      window.localStorage.removeItem('latestScrolled');
+      history.scrollRestoration = 'manual';
+    };
+
+
+
+    //REVEAL ELEMENTS ON SCROLL
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+      var reveals = document.querySelectorAll('.reveal');
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight
+        var revealTip = reveals[i].getBoundingClientRect().top
+        var revealPoint = 100
+
+        if (revealTip < windowHeight - revealPoint) {
+          reveals[i].classList.add('active')
+        }
+      }
+
+    }
+  </script>
+</body>
+
+</html>
